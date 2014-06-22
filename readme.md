@@ -1,4 +1,4 @@
-#Leaflet formula: Markers within a radius
+#Leaflet formula: Markers within radius
 [Live demo](http://csessig86.github.io/leaflet-markers-within-radius/)
 
 This demo shows how to calculate how many points are within a radius using [Leaflet](http://leafletjs.com/). It uses [jquery-geocodify](http://jquery-geocodify.readthedocs.org/en/latest/), which creates a form that allows readers to enter their address and have it plotted on the map.
