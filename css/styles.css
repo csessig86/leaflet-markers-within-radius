@@ -1,0 +1,124 @@
+/* Base */
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 18px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+/* Map */
+#map {
+  background-color: #FFF;
+  right: 0px;
+  height: 100%;
+  position: absolute;
+  width: 68%;
+  z-index: 6;
+  cursor: default;
+  top: 0;
+}
+
+/* Legend */
+#legend {
+    padding: 0px 2%;
+    width: 28%;
+    z-index: 7;
+    height: 100%;
+    top: 0;
+    background-color: #EEE;
+    position: absolute;
+}
+
+#json_one_results {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Geocoder */
+.geocoder {
+  width: 100%;
+  font-size: 17px;
+  margin: 5px 0px 10px 0px;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.geocoder .geocodifyInput {
+  width: 80%;
+  margin-bottom: 0px;
+  font-size: 17px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 4px 0 0 4px;
+  border-right: 0;
+}
+
+.geocoder .geocodifyButton {
+  width: 10%;
+  min-height: 20px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 2%;
+  padding-right: 2%;
+  border: 1px solid #ccc;
+  border-radius: 0 4px 4px 0;
+  color: #333;
+  *display: inline;
+  _height: 20px;
+}
+
+.geocoder .geocodifyDropdown {
+  margin: 5px 0px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top-color: #d9d9d9;
+  padding: 5px 0 !important;
+  z-index: 9003;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.geocoder .geocodifyDropdown ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.geocoder .geocodifyDropdown li {
+  cursor: pointer;
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 0 5px 8px;
+  text-align: left;
+}
+
+.geocoder .selected {
+  background-color: #2262cc;
+  background-repeat: repeat-x;
+  color: #fff;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100, from(#0088cc), to(#0077b3));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+  background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+}
