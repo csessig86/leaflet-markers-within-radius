@@ -13,7 +13,7 @@ var search_icon = L.AwesomeMarkers.icon({
 
 // Convert miles to meters to set radius of circle
 function milesToMeters(miles) {
-    return miles * 1069;
+    return miles * 1069.344;
 };
 
 // This figures out how many points are within out circle
